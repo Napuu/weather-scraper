@@ -1,0 +1,4 @@
+forecast:
+    baseurl: "http://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=getFeature&storedquery_id="
+    query: "fmi::forecast::hirlam::surface::grid"
+    parameters: "&timestep=60m&levels=0&parameters=WindUMS,WindVMS,WindGust"
